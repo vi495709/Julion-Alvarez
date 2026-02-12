@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Julión Álvarez</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/d7/61/08/d761081825752100019e21884a6aa98a.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Capa oscura encima del fondo */
+.overlay {
+    background: rgba(0,0,0,0.75);
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #f5c542;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Tarjetas */
+.card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* Lista en columnas */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.columns ul {
+    list-style-type: square;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ccc;
+}
+</style>
+</head>
+
+<body>
+<div class="overlay">
+
+<h1>Julión Álvarez</h1>
+<p style="text-align:center; font-style: italic;">"El Rey de la Taquilla"</p>
+
+<div class="card">
+<h2>Biografía</h2>
+<p>
+Julio César Álvarez Montelongo, conocido artísticamente como Julión Álvarez,
+nació el 11 de abril de 1983 en La Concordia, Chiapas, México.
+Es uno de los cantantes más importantes del género regional mexicano.
+</p>
+<p>
+A los 17 años dejó sus estudios de ingeniería mecánica para mudarse a Mazatlán,
+Sinaloa, donde comenzó su carrera musical. Formó parte de la Banda MS antes
+de iniciar su propio proyecto en 2007 con <strong>"Julión Álvarez y su Norteño Banda"</strong>.
+</p>
+</div>
+
+<div class="card">
+<h2>Trayectoria y Logros</h2>
+<p>
+Julión ha logrado consolidarse como uno de los artistas más exitosos del regional mexicano.
+Es conocido por llenar grandes escenarios, lo que le ha valido el apodo de
+<strong>"El Rey de la Taquilla"</strong>.
+</p>
+<p>
+Ha recibido múltiples premios y reconocimientos por sus ventas y popularidad,
+además de posicionar numerosas canciones en los primeros lugares de popularidad.
+</p>
+</div>
+
+<div class="card">
+<h2>Mejores Éxitos</h2>
+<div class="columns">
+<ul>
+<li>Regalo de Dios</li>
+<li>Tu Perfume</li>
+<li>Te Hubieras Ido Antes</li>
+<li>Casi Completa</li>
+<li>Cuando Te Amé</li>
+</ul>
+
+<ul>
+<li>No Elegí Conocerte</li>
+<li>El Color de Tus Ojos</li>
+<li>Lo Tienes Todo</li>
+<li>Y Así Fue</li>
+<li>Afuera Está Lloviendo</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<h2>Curiosidades</h2>
+<p>
+• Es considerado uno de los artistas más influyentes del regional mexicano moderno.  
+• Su estilo combina banda sinaloense con norteño banda.  
+• Ha realizado giras internacionales en Estados Unidos y América Latina.  
+</p>
+</div>
+
+<div class="card">
+<h2>Escúchalo en Spotify</h2>
+<iframe style="border-radius:12px" 
+src="https://open.spotify.com/embed/artist/1bfl0AU8SqmLkElptOprhC?utm_source=generator" 
+width="100%" height="152" frameBorder="0" 
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+loading="lazy"></iframe>
+</div>
+
+<footer>
+Página creada sobre la vida y trayectoria de Julión Álvarez | 2026
+</footer>
+
+</div>
+</body>
+</html>
